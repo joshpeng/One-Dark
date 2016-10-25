@@ -43,15 +43,26 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Comment</string>
+        <string>Comments</string>
         <key>scope</key>
-        <string>comment</string>
+        <string>comment, punctuation.definition.comment</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#5C6370</string>
           <key>fontStyle</key>
           <string>italic</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Brackets</string>
+        <key>scope</key>
+        <string>meta.brace.round.begin, meta.brace.round.end, meta.brace.square.begin, meta.brace.square.end, meta.brace.curly.begin.js, meta.brace.curly.end.js, meta.group.braces.round.function.arguments</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ABB2BF</string>
         </dict>
       </dict>
       <dict>
@@ -67,20 +78,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Number</string>
+        <string>Numbers and Built-in Constants</string>
         <key>scope</key>
-        <string>constant.numeric</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#D19A66</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Built-in constant</string>
-        <key>scope</key>
-        <string>constant.language</string>
+        <string>constant.numeric, constant.language</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -91,7 +91,7 @@
         <key>name</key>
         <string>User-defined constant</string>
         <key>scope</key>
-        <string>constant.character, constant.other</string>
+        <string>constant.character</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -100,9 +100,20 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Variable</string>
+        <string>User-defined Key Names</string>
         <key>scope</key>
-        <string>variable</string>
+        <string>constant.other.key</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ABB2BF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Object</string>
+        <key>scope</key>
+        <string>variable.other.object</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -111,28 +122,150 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Keyword</string>
+        <string>Object Property</string>
         <key>scope</key>
-        <string>keyword</string>
+        <string>meta.property.object.js</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#C678DD</string>
+          <string>#E06C75</string>
         </dict>
       </dict>
       <dict>
         <key>name</key>
-        <string>Storage</string>
+        <string>Classes</string>
         <key>scope</key>
-        <string>storage</string>
+        <string>variable.other.class, meta.property.class variable.other.class</string>
         <key>settings</key>
         <dict>
-          <key>fontStyle</key>
-          <string>italic</string>
+          <key>foreground</key>
+          <string>#E06C75</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Class Properties</string>
+        <key>scope</key>
+        <string>variable.other, meta.class.property.js, meta.property.class variable.other.property.static</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#D19A66</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>TEST User-defined constant</string>
+        <key>scope</key>
+        <string>variable.other.readwrite</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ABB2BF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>User-defined constant</string>
+        <key>scope</key>
+        <string>meta.group.braces variable.other.readwrite</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ABB2BF</string>
+        </dict>
+      </dict>
+      
+      <dict>
+        <key>name</key>
+        <string>Language</string>
+        <key>scope</key>
+        <string>variable.language, meta.class variable.other.readwrite</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#E06C75</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Language Prototype</string>
+        <key>scope</key>
+        <string>variable.language.prototype</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#D19A66</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Function</string>
+        <key>scope</key>
+        <string>variable.function, entity.name.function, meta.class-method.js entity.name.function.js, variable.language.super</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#61AFEF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Function Constructor</string>
+        <key>scope</key>
+        <string>variable.function.constructor</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#E5C07B</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Keyword (new, if, return)</string>
+        <key>scope</key>
+        <string>keyword.control, keyword.operator.new, keyword.operator.module</string>
+        <key>settings</key>
+        <dict>
           <key>foreground</key>
           <string>#C678DD</string>
         </dict>
       </dict>
+      
+      <dict>
+        <key>name</key>
+        <string>Substitution Punctuation</string>
+        <key>scope</key>
+        <string>keyword.other.substitution.begin, keyword.other.substitution.end</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#56B6C2</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Operator Accessor (.)</string>
+        <key>scope</key>
+        <string>keyword.operator.accessor</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ABB2BF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Operator</string>
+        <key>scope</key>
+        <string>keyword.operator, constant.other.color, punctuation.separator.key-value</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#56B6C2</string>
+        </dict>
+      </dict>
+      
       <dict>
         <key>name</key>
         <string>Storage type</string>
@@ -170,19 +303,6 @@
           <string>italic underline</string>
           <key>foreground</key>
           <string>#E5C07B</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Function name</string>
-        <key>scope</key>
-        <string>entity.name.function</string>
-        <key>settings</key>
-        <dict>
-          <key>fontStyle</key>
-          <string/>
-          <key>foreground</key>
-          <string>#61AFEF</string>
         </dict>
       </dict>
       <dict>
@@ -252,13 +372,13 @@
         <key>name</key>
         <string>Library class/type</string>
         <key>scope</key>
-        <string>support.type, support.class</string>
+        <string>support.type, support.class, support.type.object.module</string>
         <key>settings</key>
         <dict>
           <key>fontStyle</key>
           <string/>
           <key>foreground</key>
-          <string>#E06C75</string>
+          <string>#E5C07B</string>
         </dict>
       </dict>
       <dict>
