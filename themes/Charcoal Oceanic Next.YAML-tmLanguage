@@ -1,0 +1,203 @@
+author: 'Dmitri Voronianski (http://pixelhunter.me)'
+colorSpaceName: sRGB
+gutterSettings:
+    background: '#343d46'
+    divider: '#343d46'
+    foreground: '#65737e'
+    selectionBackground: '#44494f'
+    selectionForeground: '#999999'
+name: 'Oceanic Next'
+semanticClass: oceanic.next.dark
+settings:
+    -
+        settings:
+            activeGuide: '#FBC95A'
+            background: '#25292c'
+            caret: '#cfd2d1'
+            foreground: '#cfd2d1'
+            guide: '#65737F'
+            invisibles: '#474c53'
+            lineHighlight: '#343d46'
+            selection: '#44494f'
+            stackGuide: '#44494f'
+    -
+        name: Comments
+        scope: 'comment, punctuation.definition.comment'
+        settings:
+            foreground: '#898e99'
+    -
+        name: Variable
+        scope: 'variable, variable.meta.jsx, variable.other.readwrite.js'
+        settings:
+            foreground: '#cfd2d1'
+    -
+        name: 'Variable Properties'
+        scope: 'variable.other.property.static, meta.property.object'
+        settings:
+            foreground: '#cfd2d1'
+    -
+        name: 'Keyword, Storage'
+        scope: 'keyword, storage.type, storage.modifier'
+        settings:
+            foreground: '#C594C5'
+    -
+        name: 'Operator, Misc'
+        scope: 'keyword.operator, constant.other.color, punctuation, meta.tag, punctuation.tag.string, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitution'
+        settings:
+            foreground: '#5FB3B3'
+    -
+        name: Tag
+        scope: 'entity.name.tag, meta.tag.sgml, markup.deleted.git_gutter'
+        settings:
+            foreground: '#EC5F67'
+    -
+        name: 'Function, Special Method, Block Level'
+        scope: 'meta.class-method.js entity.name.function.js, entity.name.function, meta.function-call, variable.function, support.function, keyword.other.special-method, meta.block-level'
+        settings:
+            foreground: '#6699CC'
+    -
+        name: 'Other Variable, String Link'
+        scope: 'support.other.variable, string.other.link'
+        settings:
+            foreground: '#EC5F67'
+    -
+        name: 'Number, Constant, Function Argument, Tag Attribute, Embedded'
+        scope: 'constant.numeric, constant.language, support.constant, constant.character, variable.parameter, keyword.other.unit'
+        settings:
+            foreground: '#F99157'
+    -
+        name: 'String, Symbols, Inherited Class, Markup Heading'
+        scope: 'string, punctuation.tag.definition.string, tag.string, constant.other.symbol, constant.other.key, entity.other.inherited-class, markup.heading, markup.inserted.git_gutter, meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js'
+        settings:
+            fontStyle: normal
+            foreground: '#99C794'
+    -
+        name: 'Class, Support'
+        scope: 'entity.name.class, entity.name.type.class, support.type, support.class, support.orther.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter'
+        settings:
+            foreground: '#FAC863'
+    -
+        name: 'Import Class, Variable Class'
+        scope: variable.other.class
+        settings:
+            foreground: '#EC5F67'
+    -
+        name: Sub-methods
+        scope: 'entity.name.module.js, variable.import.parameter.js'
+        settings:
+            foreground: '#EC5F67'
+    -
+        name: 'Language methods'
+        scope: 'variable.language, variable.language.jsx'
+        settings:
+            fontStyle: italic
+            foreground: '#EC5F67'
+    -
+        name: entity.name.method.js
+        scope: entity.name.method.js
+        settings:
+            foreground: '#6699CC'
+    -
+        name: Attributes
+        scope: entity.other.attribute-name
+        settings:
+            foreground: '#BB80B3'
+            fontStyle: italic
+    -
+        name: Inserted
+        scope: markup.inserted
+        settings:
+            foreground: '#99C794'
+    -
+        name: Deleted
+        scope: markup.deleted
+        settings:
+            foreground: '#EC5F67'
+    -
+        name: Changed
+        scope: markup.changed
+        settings:
+            foreground: '#BB80B3'
+    -
+        name: 'Regular Expressions'
+        scope: string.regexp
+        settings:
+            foreground: '#5FB3B3'
+    -
+        name: 'Escape Characters'
+        scope: constant.character.escape
+        settings:
+            foreground: '#5FB3B3'
+    -
+        name: URL
+        scope: '*url*, *link*, *uri*'
+        settings:
+            fontStyle: underline
+    -
+        name: 'Search Results Nums'
+        scope: 'constant.numeric.line-number.find-in-files - match'
+        settings:
+            foreground: '#AB7967'
+    -
+        name: 'Search Results Lines'
+        scope: entity.name.filename.find-in-files
+        settings:
+            foreground: '#99C794'
+    -
+        name: Decorators
+        scope: 'tag.decorator.js entity.name.tag.js, tag.decorator.js punctuation.definition.tag.js'
+        settings:
+            fontStyle: italic
+            foreground: '#6699CC'
+    -
+        name: 'ES7 Bind Operator'
+        scope: 'source.js constant.other.object.key.js string.unquoted.label.js'
+        settings:
+            fontStyle: italic
+            foreground: '#EC5F67'
+    -
+        name: 'JSON key - Level 8'
+        scope: 'source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string'
+        settings:
+            foreground: '#FAC863'
+    -
+        name: 'JSON key - Level 7'
+        scope: 'source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string'
+        settings:
+            foreground: '#C594C5'
+    -
+        name: 'JSON key - Level 6'
+        scope: 'source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string'
+        settings:
+            foreground: '#D8DEE9'
+    -
+        name: 'JSON key - Level 5'
+        scope: 'source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string'
+        settings:
+            foreground: '#6699CC'
+    -
+        name: 'JSON key - Level 4'
+        scope: 'source.json meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string'
+        settings:
+            foreground: '#AB7967'
+    -
+        name: 'JSON key - Level 3'
+        scope: 'source.json meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string'
+        settings:
+            foreground: '#EC5f67'
+    -
+        name: 'JSON key - Level 2'
+        scope: 'source.json meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string'
+        settings:
+            foreground: '#F99157'
+    -
+        name: 'JSON key - Level 1'
+        scope: 'source.json meta meta.structure.dictionary.json string.quoted.double.json - meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta.structure.dictionary.json punctuation.definition.string - meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string'
+        settings:
+            foreground: '#FAC863'
+    -
+        name: 'JSON key - Level 0'
+        scope: 'source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string'
+        settings:
+            foreground: '#C594C5'
+uuid: 21a3a5f5-e82f-48a8-bc8b-9aef307f6131

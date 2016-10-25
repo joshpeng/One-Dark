@@ -1,0 +1,172 @@
+name: 'Atom Dark'
+settings:
+    -
+        settings:
+            background: '#282C34'
+            caret: '#F8F8F0'
+            foreground: '#ABB2BF'
+            invisibles: '#383C44'
+            lineHighlight: '#23262D'
+            selection: '#3D4148'
+            findHighlight: '#405054'
+            findHighlightForeground: '#000000'
+            selectionBorder: '#222218'
+            activeGuide: '#9D550FB0'
+            bracketsForeground: '#F8F8F2A5'
+            bracketsOptions: underline
+            bracketContentsForeground: '#F8F8F2A5'
+            bracketContentsOptions: underline
+            tagsOptions: stippled_underline
+    -
+        name: Comment
+        scope: comment
+        settings:
+            foreground: '#5C6370'
+            fontStyle: italic
+    -
+        name: String
+        scope: string
+        settings:
+            foreground: '#98C379'
+    -
+        name: Number
+        scope: constant.numeric
+        settings:
+            foreground: '#D19A66'
+    -
+        name: 'Built-in constant'
+        scope: constant.language
+        settings:
+            foreground: '#D19A66'
+    -
+        name: 'User-defined constant'
+        scope: 'constant.character, constant.other'
+        settings:
+            foreground: '#56B6C2'
+    -
+        name: Variable
+        scope: variable
+        settings:
+            foreground: '#E06C75'
+    -
+        name: Keyword
+        scope: keyword
+        settings:
+            foreground: '#C678DD'
+    -
+        name: Storage (const)
+        scope: storage
+        settings:
+            fontStyle: italic
+            foreground: '#C678DD'
+    -
+        name: 'Storage type'
+        scope: storage.type
+        settings:
+            fontStyle: ""
+            foreground: '#000000'
+    -
+        name: 'Class name'
+        scope: entity.name.class
+        settings:
+            fontStyle: ""
+            foreground: '#E5C07B'
+    -
+        name: 'Inherited class'
+        scope: entity.other.inherited-class
+        settings:
+            fontStyle: 'italic underline'
+            foreground: '#E5C07B'
+    -
+        name: 'Function name'
+        scope: entity.name.function
+        settings:
+            fontStyle: ""
+            foreground: '#61AFEF'
+    -
+        name: 'Function argument'
+        scope: variable.parameter
+        settings:
+            fontStyle: ""
+            foreground: '#ABB2BF'
+    -
+        name: 'Tag name'
+        scope: entity.name.tag
+        settings:
+            foreground: '#E06C75'
+    -
+        name: 'Tag attribute'
+        scope: entity.other.attribute-name
+        settings:
+            fontStyle: italic
+            foreground: '#D19A66'
+    -
+        name: 'Library function'
+        scope: support.function
+        settings:
+            fontStyle: ""
+            foreground: '#56B6C2'
+    -
+        name: 'Library constant'
+        scope: support.constant
+        settings:
+            fontStyle: ""
+            foreground: '#D19A66'
+    -
+        name: 'Library class/type'
+        scope: 'support.type, support.class'
+        settings:
+            fontStyle: ""
+            foreground: '#E06C75'
+    -
+        name: 'Library variable'
+        scope: support.other.variable
+        settings:
+            fontStyle: ""
+    -
+        name: Invalid
+        scope: invalid
+        settings:
+            background: '#E05252'
+            fontStyle: ""
+            foreground: '#FFFFFF'
+    -
+        name: 'Invalid deprecated'
+        scope: invalid.deprecated
+        settings:
+            background: '#E0C285'
+            foreground: '#523D14'
+    -
+        name: 'JSON String'
+        scope: 'meta.structure.dictionary.json string.quoted.double.json'
+        settings:
+            foreground: '#98C379'
+    -
+        name: diff.header
+        scope: 'meta.diff, meta.diff.header'
+        settings:
+            foreground: '#75715E'
+    -
+        name: diff.deleted
+        scope: markup.deleted
+        settings:
+            foreground: '#F92672'
+    -
+        name: diff.inserted
+        scope: markup.inserted
+        settings:
+            foreground: '#A6E22E'
+    -
+        name: diff.changed
+        scope: markup.changed
+        settings:
+            foreground: '#E6DB74'
+    -
+        scope: 'constant.numeric.line-number.find-in-files - match'
+        settings:
+            foreground: '#AE81FFA0'
+    -
+        scope: entity.name.filename.find-in-files
+        settings:
+            foreground: '#E6DB74'
+uuid: 0795619A-DBA1-12F3-1ED4-5E5589507C66
