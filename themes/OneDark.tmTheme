@@ -106,7 +106,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#ABB2BF</string>
+          <string>#56B6C2</string>
         </dict>
       </dict>
       <dict>
@@ -128,7 +128,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#E06C75</string>
+          <string>#D19A66</string>
         </dict>
       </dict>
       <dict>
@@ -155,7 +155,7 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>TEST User-defined constant</string>
+        <string>User-defined constant</string>
         <key>scope</key>
         <string>variable.other.readwrite</string>
         <key>settings</key>
@@ -195,7 +195,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#D19A66</string>
+          <string>#E06C75</string>
         </dict>
       </dict>
       <dict>
