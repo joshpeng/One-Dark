@@ -1,8 +1,9 @@
 # Changelog
 v0.2.0
 - Added Python support
-- Added Markdown support
 - Added C# support
+- Improved Markdown support
+- Improved JSON support
 
 v0.1.2
 - Fixed 'console.log' coloring in ES6 classes

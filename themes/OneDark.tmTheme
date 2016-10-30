@@ -572,8 +572,6 @@
         <dict>
           <key>background</key>
           <string>#E05252</string>
-          <key>fontStyle</key>
-          <string/>
           <key>foreground</key>
           <string>#FFFFFF</string>
         </dict>
@@ -593,6 +591,17 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>JSON Property</string>
+        <key>scope</key>
+        <string>json.meta.property-name</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#E06C75</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>JSON String</string>
         <key>scope</key>
         <string>meta.structure.dictionary.json string.quoted.double.json</string>
@@ -600,6 +609,17 @@
         <dict>
           <key>foreground</key>
           <string>#98C379</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>JSON Links</string>
+        <key>scope</key>
+        <string>meta.structure.dictionary.json string.quoted.double.detected-link</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#C678DD</string>
         </dict>
       </dict>
       <dict>
