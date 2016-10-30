@@ -100,6 +100,17 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>Python Constant</string>
+        <key>scope</key>
+        <string>python.constant.character.format.placeholder</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#D19A66</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>User-defined Key Names</string>
         <key>scope</key>
         <string>constant.other.key</string>
@@ -200,6 +211,17 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>Python Magic Variable</string>
+        <key>scope</key>
+        <string>python.support.magic.variable</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#E06C75</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>Function</string>
         <key>scope</key>
         <string>variable.function, entity.name.function, meta.class-method.js entity.name.function.js</string>
@@ -207,6 +229,17 @@
         <dict>
           <key>foreground</key>
           <string>#61AFEF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Python @ Function Decorator</string>
+        <key>scope</key>
+        <string>meta.function.decorator.python</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#56b6c2</string>
         </dict>
       </dict>
       <dict>
@@ -231,7 +264,17 @@
           <string>#C678DD</string>
         </dict>
       </dict>
-      
+      <dict>
+        <key>name</key>
+        <string>Python Keyword Operator Logical</string>
+        <key>scope</key>
+        <string>python.keyword.operator.logical</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#C678DD</string>
+        </dict>
+      </dict>
       <dict>
         <key>name</key>
         <string>Substitution Punctuation</string>
@@ -265,7 +308,17 @@
           <string>#56B6C2</string>
         </dict>
       </dict>
-      
+      <dict>
+        <key>name</key>
+        <string>Python Operator</string>
+        <key>scope</key>
+        <string>python.keyword.operator</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ABB2BF</string>
+        </dict>
+      </dict>
       <dict>
         <key>name</key>
         <string>Storage type</string>
@@ -320,6 +373,19 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>Python Function argument</string>
+        <key>scope</key>
+        <string>python.variable.parameter</string>
+        <key>settings</key>
+        <dict>
+          <key>fontStyle</key>
+          <string/>
+          <key>foreground</key>
+          <string>#D19A66</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>Tag name</string>
         <key>scope</key>
         <string>entity.name.tag</string>
@@ -347,6 +413,32 @@
         <string>Library function</string>
         <key>scope</key>
         <string>support.function, support.class support.function</string>
+        <key>settings</key>
+        <dict>
+          <key>fontStyle</key>
+          <string/>
+          <key>foreground</key>
+          <string>#56B6C2</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Python function</string>
+        <key>scope</key>
+        <string>python.meta.type.support.function-call, python.meta.variable.function-call.legacy.builtin</string>
+        <key>settings</key>
+        <dict>
+          <key>fontStyle</key>
+          <string/>
+          <key>foreground</key>
+          <string>#56B6C2</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Python inheritance</string>
+        <key>scope</key>
+        <string>python.meta.type.support.inheritance</string>
         <key>settings</key>
         <dict>
           <key>fontStyle</key>

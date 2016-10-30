@@ -1,4 +1,7 @@
 # Changelog
+v0.2.0
+- Added Python support
+
 v0.1.2
 - Fixed 'console.log' coloring in ES6 classes
 - Changed ES6 extended class color to yellow (different than Atom, but consistent with base classes)
