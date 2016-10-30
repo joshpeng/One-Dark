@@ -80,6 +80,17 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>String URLs</string>
+        <key>scope</key>
+        <string>string.detected-link</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#C678DD</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>Numbers and Built-in Constants</string>
         <key>scope</key>
         <string>constant.numeric, constant.language</string>

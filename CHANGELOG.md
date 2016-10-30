@@ -1,4 +1,7 @@
 # Changelog
+v0.2.1
+- Changed URL color to purple. Matches Atom's new URL color
+
 v0.2.0
 - Added Python support
 - Added C# support
