@@ -525,6 +525,39 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>Markdown Headings</string>
+        <key>scope</key>
+        <string>markup.heading</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#E06C75</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markdown Links Title/Description</string>
+        <key>scope</key>
+        <string>markdown.meta.inline</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#61AFEF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Markdown Links</string>
+        <key>scope</key>
+        <string>markdown.meta.link.inline.detected-link</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#C678DD</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>diff.header</string>
         <key>scope</key>
         <string>meta.diff, meta.diff.header</string>
