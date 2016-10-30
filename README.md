@@ -5,10 +5,10 @@ Optimized for use with [Sublime Babel](https://marketplace.visualstudio.com/item
 
 | Grammar                                  | Description                              |
 | ---------------------------------------- | ---------------------------------------- |
-| Sublime Babel                            | Complete and correct grammar syntax highlighting |
-| JavaScript Atom Grammar                  | Very poor JSX support                    |
-| Babel ES6/ES7                            | Severely mis-scoped grammar resulting in an overuse of reds |
-| Latest TypeScript and JavaScript Grammar | The worst option. Heavy red/grey-outs due to use of non-standard scoping |
+| [Sublime Babel](https://marketplace.visualstudio.com/items?itemName=joshpeng.sublime-babel-vscode) | Correct, standard syntax highlighting    |
+| [JavaScript Atom Grammar](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-atom-grammar) | Immature JSX support                     |
+| [Babel ES6/ES7](https://marketplace.visualstudio.com/items?itemName=dzannotti.vscode-babel-coloring) | Severely mis-scoped, results in an overuse of reds |
+| [Latest TypeScript and JavaScript Grammar](https://marketplace.visualstudio.com/items?itemName=ms-vscode.typescript-javascript-grammar) | Heavy red/grey-outs due to non-standard scoping |
 
 
 
@@ -18,11 +18,11 @@ All other One Dark extensions suffer from severe red-outs, poor React/JSX suppor
 
 ![Other One Dark](https://raw.githubusercontent.com/joshpeng/One-Dark/master/images/atom.gif)
 
-This extension brings back the colors like how they were meant to be from Atom :]
+This extension not only brings back the colors as envisioned by Atom, but also fixes many of their scoping inconsistencies and issues for the ultimate One Dark experience :]
 
-![One Dark Sublime Babel](https://raw.githubusercontent.com/joshpeng/One-Dark/master/images/onedark_es7.png)
+![One Dark Sublime Babel](https://raw.githubusercontent.com/joshpeng/One-Dark/master/images/onedark.gif)
 
-Another example here: [Other extensions](https://raw.githubusercontent.com/joshpeng/One-Dark/master/images/atom_example.png), [One Dark for Sublime Babel](https://raw.githubusercontent.com/joshpeng/One-Dark/master/images/onedark_example.png)
+
 
 ## Changelog
 Please see [here](https://github.com/joshpeng/One-Dark/blob/master/CHANGELOG.md).
