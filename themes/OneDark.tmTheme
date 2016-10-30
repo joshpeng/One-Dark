@@ -4,6 +4,8 @@
   <dict>
     <key>name</key>
     <string>One Dark</string>
+    <key>author</key>
+  	<string>Josh Peng</string>
     <key>settings</key>
     <array>
       <dict>
@@ -262,6 +264,83 @@
         <dict>
           <key>foreground</key>
           <string>#C678DD</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>C# Preprocessor</string>
+        <key>scope</key>
+        <string>cs.meta.preprocessor</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ABB2BF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>C# Namespace</string>
+        <key>scope</key>
+        <string>cs.meta.namespace.type</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#E5C07B</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>C# Class Method</string>
+        <key>scope</key>
+        <string>cs.meta.namespace.function.identifier.body.class.method</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#61AFEF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>C# Class Function</string>
+        <key>scope</key>
+        <string>cs.meta.identifier.entity.name.body.method.class.function</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#61AFEF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>C# Class Method Parameter</string>
+        <key>scope</key>
+        <string>cs.meta.namespace.function.identifier.body.class.method.parameter</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ABB2BF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>C# Keyword</string>
+        <key>scope</key>
+        <string>keyword.other.cs, cs.storage.modifier, cs.meta.namespace.type.storage</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#C678DD</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>C# Custom Objects</string>
+        <key>scope</key>
+        <string>cs.meta.namespace.type.storage.variable</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ABB2BF</string>
         </dict>
       </dict>
       <dict>

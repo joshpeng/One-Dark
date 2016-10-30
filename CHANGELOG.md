@@ -2,6 +2,7 @@
 v0.2.0
 - Added Python support
 - Added Markdown support
+- Added C# support
 
 v0.1.2
 - Fixed 'console.log' coloring in ES6 classes
