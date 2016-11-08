@@ -6,7 +6,7 @@
         "type": "git",
         "url": "https://github.com/joshpeng/One-Dark.git"
     },
-    "version": "0.2.1",
+    "version": "0.3.1",
     "license": "MIT",
     "publisher": "joshpeng",
     "engines": {
@@ -23,9 +23,14 @@
     "contributes": {
         "themes": [
             {
-                "label": "One Dark (Sublime)",
+                "label": "One Dark (Sublime Babel)",
                 "uiTheme": "vs-dark",
                 "path": "./themes/OneDark.tmTheme"
+            },
+			{
+                "label": "One Dark+ (Sublime Babel)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/OneDark+.tmTheme"
             }
         ]
     }

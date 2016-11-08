@@ -1,5 +1,11 @@
 # Changelog
+v0.3.1
+
+- Added new One Dark+ theme (colorizes tokens that Atom doesn't for a more consistent feel across different languages. Initial implementation for Python)
+- Fixed Python 'print' coloring on 'One Dark' theme
+
 v0.2.1
+
 - Changed URL color to purple. Matches Atom's new URL color
 
 v0.2.0
