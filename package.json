@@ -23,12 +23,12 @@
     "contributes": {
         "themes": [
             {
-                "label": "One Dark (Sublime Babel)",
+                "label": "One Dark (Sublime)",
                 "uiTheme": "vs-dark",
                 "path": "./themes/OneDark.tmTheme"
             },
 			{
-                "label": "One Dark+ (Sublime Babel)",
+                "label": "One Dark+ (Sublime)",
                 "uiTheme": "vs-dark",
                 "path": "./themes/OneDark+.tmTheme"
             }
