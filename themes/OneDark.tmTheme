@@ -80,6 +80,17 @@
       </dict>
       <dict>
         <key>name</key>
+		<string>Regex String</string>
+        <key>scope</key>
+        <string>string.regexp</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#98C379</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>String URLs</string>
         <key>scope</key>
         <string>string.detected-link</string>
@@ -109,6 +120,17 @@
         <dict>
           <key>foreground</key>
           <string>#56B6C2</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Regex Character</string>
+        <key>scope</key>
+        <string>constant.regexp.character</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#98C379</string>
         </dict>
       </dict>
       <dict>
@@ -252,7 +274,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#56b6c2</string>
+          <string>#56B6C2</string>
         </dict>
       </dict>
       <dict>
@@ -396,6 +418,17 @@
         <dict>
           <key>foreground</key>
           <string>#56B6C2</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Regexp Keyword/Operator</string>
+        <key>scope</key>
+        <string>keyword.regexp, keyword.operator.regexp.quantifier</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#98C379</string>
         </dict>
       </dict>
       <dict>
