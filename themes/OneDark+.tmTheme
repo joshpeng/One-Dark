@@ -58,6 +58,19 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>Python Docstring</string>
+        <key>scope</key>
+        <string>python.docstring</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#5C6370</string>
+          <key>fontStyle</key>
+          <string>italic</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>Brackets</string>
         <key>scope</key>
         <string>meta.brace.round.begin, meta.brace.round.end, meta.brace.square.begin, meta.brace.square.end, meta.brace.curly.begin.js, meta.brace.curly.end.js, meta.group.braces.round.function.arguments</string>

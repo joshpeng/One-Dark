@@ -1,4 +1,7 @@
 # Changelog
+v.NEXT
+- Changed Python docstrings to be the same color as comments in One Dark+
+
 v0.3.2
 - Fixed Python inheritance coloring in One Dark+ theme
 
