@@ -1,7 +1,8 @@
 # Changelog
-v.NEXT
+v0.3.3
 - Changed Python docstrings to be the same color as comments in One Dark+
 - Fixed Regex coloring inconsistencies on both themes
+- Fixed scenario that broke JavaScript class highlighting
 
 v0.3.2
 - Fixed Python inheritance coloring in One Dark+ theme

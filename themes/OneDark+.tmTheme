@@ -205,7 +205,7 @@
         <key>name</key>
         <string>Class Properties</string>
         <key>scope</key>
-        <string>variable.other, meta.class.property.js, meta.property.class variable.other.property.static</string>
+        <string>variable.other, meta.class.object.property.js, meta.property.class variable.other.property.static</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -272,7 +272,7 @@
         <key>name</key>
         <string>Function</string>
         <key>scope</key>
-        <string>variable.function, entity.name.function, meta.class-method.js entity.name.function.js</string>
+        <string>variable.function, entity.name.function, meta.class-method.js entity.name.function.js, meta.method.property.js entity.name.function.js</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
