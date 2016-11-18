@@ -1,4 +1,8 @@
 # Changelog
+v0.3.4
+- Fixed CSS coloring to match Atom's in 'One Dark' theme
+- Changed CSS coloring to match JavaScript colorization in 'One Dark+' theme
+
 v0.3.3
 - Changed Python docstrings to be the same color as comments in One Dark+
 - Fixed Regex coloring inconsistencies on both themes

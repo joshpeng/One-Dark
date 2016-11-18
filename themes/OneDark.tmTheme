@@ -422,6 +422,17 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>CSS Key-Value Separator</string>
+        <key>scope</key>
+        <string>css.punctuation.separator.key-value</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ABB2BF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>Regexp Keyword/Operator</string>
         <key>scope</key>
         <string>keyword.regexp, keyword.operator.regexp.quantifier</string>
@@ -522,11 +533,22 @@
         <key>name</key>
         <string>Tag attribute</string>
         <key>scope</key>
-        <string>entity.other.attribute-name</string>
+        <string>html.entity.other.attribute-name, js.entity.other.attribute-name</string>
         <key>settings</key>
         <dict>
           <key>fontStyle</key>
           <string>italic</string>
+          <key>foreground</key>
+          <string>#D19A66</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>CSS Selector</string>
+        <key>scope</key>
+        <string>selector.css.entity.other.attribute-name</string>
+        <key>settings</key>
+        <dict>
           <key>foreground</key>
           <string>#D19A66</string>
         </dict>
@@ -618,6 +640,19 @@
         <dict>
           <key>fontStyle</key>
           <string/>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>CSS property/constant</string>
+        <key>scope</key>
+        <string>css.property-list.property-name, css.support.constant</string>
+        <key>settings</key>
+        <dict>
+          <key>fontStyle</key>
+          <string/>
+          <key>foreground</key>
+          <string>#ABB2BF</string>
         </dict>
       </dict>
       <dict>

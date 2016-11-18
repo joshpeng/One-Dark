@@ -6,7 +6,7 @@
         "type": "git",
         "url": "https://github.com/joshpeng/One-Dark.git"
     },
-    "version": "0.3.3",
+    "version": "0.3.4",
     "license": "MIT",
     "publisher": "joshpeng",
     "engines": {
