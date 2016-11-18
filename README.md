@@ -26,7 +26,7 @@ This extension not only brings back the colors as envisioned by Atom, but also f
 
 ## One Dark vs One Dark+
 
-One Dark+ deviates from Atom to provide more consistent coloring between programming languages while using JavaScript's colors as the base model. Currently One Dark+ only benefits Python.
+One Dark+ deviates from Atom to provide more consistent coloring between programming languages while using JavaScript's colors as the base model. Currently One Dark+ only benefits Python and CSS files.
 
 ![One Dark Sublime Babel](https://raw.githubusercontent.com/joshpeng/One-Dark/master/images/onedark+.png)
 Notice the colorization of operators and function names that isn't available in Atom's One Dark.
