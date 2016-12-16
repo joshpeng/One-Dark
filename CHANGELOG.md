@@ -1,4 +1,7 @@
 # Changelog
+v.NEXT
+- Fixed an edge-case Python docstring coloring inconsistences on both themes
+
 v0.3.4
 - Fixed CSS coloring to match Atom's in 'One Dark' theme
 - Changed CSS coloring to match JavaScript colorization in 'One Dark+' theme

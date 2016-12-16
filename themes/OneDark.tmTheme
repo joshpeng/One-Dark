@@ -607,6 +607,17 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>Python Docstring Control Flow</string>
+        <key>scope</key>
+        <string>python.docstring.keyword.control.flow</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#98C379</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>Library constant</string>
         <key>scope</key>
         <string>support.constant</string>
