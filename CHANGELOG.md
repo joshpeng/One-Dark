@@ -1,6 +1,7 @@
 # Changelog
 v.NEXT
 - Fixed an edge-case Python docstring coloring inconsistences on both themes
+- Improved Markdown highlighting from new tokens
 
 v0.3.4
 - Fixed CSS coloring to match Atom's in 'One Dark' theme
