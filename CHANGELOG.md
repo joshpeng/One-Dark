@@ -1,7 +1,8 @@
 # Changelog
 v.NEXT
+- Added Markdown highlighting from new tokens in VS Code Insider Build
 - Fixed an edge-case Python docstring coloring inconsistences on both themes
-- Improved Markdown highlighting from new tokens
+- Improved coloring of arrow functions (be sure to use latest Sublime Babel)
 
 v0.3.4
 - Fixed CSS coloring to match Atom's in 'One Dark' theme
