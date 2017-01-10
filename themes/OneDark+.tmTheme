@@ -740,9 +740,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Markdown Links Title/Description</string>
+        <string>Markdown Link Description, GitHub KBD</string>
         <key>scope</key>
-        <string>markdown.meta.inline</string>
+        <string>string.other.link.title.markdown, string.other.link.description.markdown, meta.paragraph.markdown entity.name.tag.inline.any</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -751,20 +751,31 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Markdown Links</string>
+        <string>Markdown Links/Images</string>
         <key>scope</key>
-        <string>markdown.meta.link.inline.detected-link, markdown.block.fenced.code.detected-link, markdown.block.fenced.code.string.detected-link, markdown.meta.link.inline.underline</string>
+        <string>markup.underline.link.markdown, markup.underline.link.image.markdown</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#C678DD</string>
         </dict>
       </dict>
+	  <dict>
+        <key>name</key>
+        <string>Markdown Bold</string>
+        <key>scope</key>
+        <string>markup.bold.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>fontStyle</key>
+          <string>bold</string>
+        </dict>
+      </dict>
       <dict>
         <key>name</key>
-        <string>Markdown Code</string>
+        <string>Markdown Code (fenced.code for legacy, fenced_code for vsc1.9)</string>
         <key>scope</key>
-        <string>markdown.block.fenced.code, markdown.inline.raw, markdown.block.raw</string>
+        <string>markup.fenced_code.block.markdown, markup.fenced.code.block.markdown, markup.raw.inline.markdown, markdown.block.raw</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -773,9 +784,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Markdown Code Language</string>
+        <string>Markdown Code Language (fenced.code for legacy, fenced_code for vsc1.9)</string>
         <key>scope</key>
-        <string>markdown.block.fenced.code.language</string>
+        <string>markup.fenced_code.block.markdown fenced_code.block.language, markup.fenced.code.block.markdown fenced.code.block.language</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -786,7 +797,7 @@
         <key>name</key>
         <string>Markdown Punctuation</string>
         <key>scope</key>
-        <string>markdown.punctuation.definition.inline.link, markdown.punctuation.definition.block.fenced.code, markdown.punctuation.definition.inline.raw</string>
+        <string>punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.metadata.markdown, punctuation.definition.markdown, beginning.punctuation.definition.quote.markdown, punctuation.definition.raw.markdown, meta.paragraph.markdown punctuation.definition.tag</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -797,7 +808,7 @@
         <key>name</key>
         <string>Markdown Numbers and Constants</string>
         <key>scope</key>
-        <string>markdown.block.constant.numeric, markdown.constant.language</string>
+        <string>markdown.fenced_code.block.markdown constant.numeric, markdown.fenced.code.block.markdown constant.numeric, markdown.fenced_code.block.markdown constant.language, markdown.fenced.code.block.markdown constant.language</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -819,7 +830,7 @@
         <key>name</key>
         <string>Markdown Keyword</string>
         <key>scope</key>
-        <string>markdown.block.fenced.code.keyword, markdown.block.fenced.code.lambda.storage.type</string>
+        <string>markup.fenced_code.block.markdown keyword.operator, markup.fenced_code.block.markdown keyword.operator.logical.python, markup.fenced.code.block.markdown keyword.operator, markup.fenced_code.block.markdown keyword.control, markup.fenced.code.block.markdown keyword.control, markup.fenced_code.block.markdown storage.type, markup.fenced_code.block.markdown storage.type.function.lambda, markdown.block.fenced.code.lambda.storage.type</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
