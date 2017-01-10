@@ -181,7 +181,7 @@
         <key>name</key>
         <string>Classes</string>
         <key>scope</key>
-        <string>variable.other.class, meta.property.class variable.other.class</string>
+        <string>variable.other.class, meta.class.property variable.other.property</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
