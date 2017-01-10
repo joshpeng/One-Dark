@@ -60,7 +60,7 @@
         <key>name</key>
         <string>Python Docstring</string>
         <key>scope</key>
-        <string>python.docstring</string>
+        <string>string.quoted.docstring.multi.python, string.quoted.docstring.multi.python keyword.control.flow.python</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -150,7 +150,7 @@
         <key>name</key>
         <string>Python Constant</string>
         <key>scope</key>
-        <string>python.constant.character.format.placeholder</string>
+        <string>constant.character.format.placeholder.other.python</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -283,7 +283,7 @@
         <key>name</key>
         <string>Python Function</string>
         <key>scope</key>
-        <string>python.meta.function-call.generic</string>
+        <string>meta.function-call.generic.python</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -393,7 +393,7 @@
         <key>name</key>
         <string>Python Keyword Operator Logical</string>
         <key>scope</key>
-        <string>python.keyword.operator.logical</string>
+        <string>keyword.operator.logical.python</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -511,7 +511,7 @@
         <key>name</key>
         <string>Python Function argument</string>
         <key>scope</key>
-        <string>python.variable.parameter</string>
+        <string>variable.parameter.function.language.python</string>
         <key>settings</key>
         <dict>
           <key>fontStyle</key>
@@ -598,7 +598,7 @@
         <key>name</key>
         <string>Python inheritance</string>
         <key>scope</key>
-        <string>python.meta.type.support.inheritance</string>
+        <string>meta.type.support.inheritance.python</string>
         <key>settings</key>
         <dict>
           <key>fontStyle</key>
@@ -609,15 +609,13 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Python Docstring Control Flow</string>
+        <string>Python Entity Name Type</string>
         <key>scope</key>
-        <string>python.docstring.keyword.control.flow</string>
+        <string>entity.name.type.class.python</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#5C6370</string>
-          <key>fontStyle</key>
-          <string>italic</string>
+          <string>#E5C07B</string>
         </dict>
       </dict>
       <dict>
