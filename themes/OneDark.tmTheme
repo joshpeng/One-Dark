@@ -533,7 +533,7 @@
         <key>name</key>
         <string>Tag attribute</string>
         <key>scope</key>
-        <string>html.entity.other.attribute-name, js.entity.other.attribute-name</string>
+        <string>entity.other.attribute-name.html, entity.other.attribute-name.js, entity.other.attribute-name.jsx</string>
         <key>settings</key>
         <dict>
           <key>fontStyle</key>
