@@ -126,7 +126,7 @@
         <key>name</key>
         <string>Regex Character</string>
         <key>scope</key>
-        <string>constant.regexp.character</string>
+        <string>constant.character.escape.backslash.regexp</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -435,7 +435,7 @@
         <key>name</key>
         <string>Regexp Keyword/Operator</string>
         <key>scope</key>
-        <string>keyword.regexp, keyword.operator.regexp.quantifier</string>
+        <string>keyword.regexp, keyword.operator.quantifier.regexp, keyword.operator.or.regexp, keyword.control.anchor.regexp</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
