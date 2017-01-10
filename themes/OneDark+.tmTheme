@@ -161,7 +161,7 @@
         <key>name</key>
         <string>User-defined Key Names</string>
         <key>scope</key>
-        <string>constant.other.key</string>
+        <string>constant.other.key, meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
