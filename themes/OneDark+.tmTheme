@@ -31,6 +31,8 @@
           <string>#222218</string>
           <key>activeGuide</key>
           <string>#9D550FB0</string>
+          <key>linkForeground</key>
+          <string>#C678DD</string>
           <key>bracketsForeground</key>
           <string>#F8F8F2A5</string>
           <key>bracketsOptions</key>
