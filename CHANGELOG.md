@@ -1,4 +1,7 @@
 # Changelog
+v0.3.6
+- Fixed VSC 1.9 scoping in 'One Dark' as well, not just 'One Dark+'
+
 v0.3.5
 - Added Markdown highlighting from new tokens in VS Code Insider Build
 - Fixed an edge-case Python docstring coloring inconsistences on both themes
