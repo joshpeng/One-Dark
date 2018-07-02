@@ -119,7 +119,7 @@
         <key>name</key>
         <string>Numbers and Built-in Constants</string>
         <key>scope</key>
-        <string>constant.numeric, constant.language, markdown.python.constant.numeric</string>
+        <string>constant.numeric, constant.language, markdown.python.constant.numeric, constant.boolean</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -921,6 +921,72 @@
         <dict>
           <key>foreground</key>
           <string>#E6DB74</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>dbt Jinja Statement</string>
+        <key>scope</key>
+        <string>jinja.statement.begin.sql, jinja.statement.end.sql</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#61AFEF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>dbt Jinja Expression</string>
+        <key>scope</key>
+        <string>jinja.expression.begin.sql, jinja.expression.end.sql</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#61AFEF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>dbt Jinja Control</string>
+        <key>scope</key>
+        <string>jinja.keyword.control.sql</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#E06C75</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>dbt Jinja Object</string>
+        <key>scope</key>
+        <string>jinja.object.sql</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#E5C07B</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>dbt Jinja Operator</string>
+        <key>scope</key>
+        <string>jinja.operator.accessor.sql</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#61AFEF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>dbt Jinja Function/Property</string>
+        <key>scope</key>
+        <string>jinja.object.function.sql, jinja.object.property.sql, jinja.function.sql</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#56B6C2</string>
         </dict>
       </dict>
     </array>

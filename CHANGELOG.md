@@ -1,4 +1,7 @@
 # Changelog
+v0.3.7
+- Added dbt SQL highlighting tokens
+
 v0.3.6
 - Fixed VSC 1.9 scoping in 'One Dark' as well, not just 'One Dark+'
 
