@@ -1,4 +1,4 @@
-# One Dark for Sublime Babel [![VS Code marketplace button](http://vsmarketplacebadge.apphb.com/installs/joshpeng.theme-onedark-sublime.svg)](https://marketplace.visualstudio.com/items?itemName=joshpeng.theme-onedark-sublime)
+# One Dark for Sublime Babel [![VS Code marketplace button](https://vsmarketplacebadge.apphb.com/installs/joshpeng.theme-onedark-sublime.svg)](https://marketplace.visualstudio.com/items?itemName=joshpeng.theme-onedark-sublime)
 Proper port of Atom's One Dark theme for Visual Studio Code. Optimized for use with [Sublime Babel](https://marketplace.visualstudio.com/items?itemName=joshpeng.sublime-babel-vscode).
 
 This extension not only brings the colors as envisioned by Atom, but also fixes many of their scoping inconsistencies and issues for the ultimate One Dark experience :]
